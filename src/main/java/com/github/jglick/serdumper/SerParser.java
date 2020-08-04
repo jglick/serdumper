@@ -323,7 +323,7 @@ public final class SerParser implements ObjectStreamConstants {
         public List annotation; // List<Object>
         public ClassDesc superclass;
         public String toString() {
-            return "Class[name=" + name + "]"; // NOI18N
+            return "Class[name=" + name + "@" + svuid + "]"; // NOI18N
         }
     }
     
